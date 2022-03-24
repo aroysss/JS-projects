@@ -1,4 +1,4 @@
-function myDictionary(animal) {
+function myDictionary() {
 var animal= {
 	species: "cat",
 	color: "black",
@@ -7,5 +7,5 @@ var animal= {
 	};
 	// animal age will be deleted//
 	delete animal.age;
-document.getElementById("Dictionary").innerHTML=animal.age; //refers to html id=dictionary//
+document.getElementById("dictionary").innerHTML=animal.age; //refers to html id=dictionary//
 }

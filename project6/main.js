@@ -10,8 +10,8 @@ var edna= new animal("reptile","bearded dragon","tan","small");
 function myFunction() {
 	document.getElementById("Keywords_and_Constructors").innerHTML=
 	"edna is a " + edna.animal_breed + "who is" + edna.animal_color +
-	"and" + edna.animal_size;
-}
+	"and" + edna.animal_size; //displays ednas identity//
+}//nested function add 5 to 1//
 function count_Function() {
 	document.getElementById("count").innerHTML= count()
 	function count() {

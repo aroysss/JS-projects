@@ -29,7 +29,7 @@ add_numbers_1();
 add_numbers_2();
 //if statement//
 function time_Function() {
-    var time= new date().gethours();
+    var time= new Date().getHours();
     var reply;
     if (time >= 10 == time < 0) {
         reply="it is morning";

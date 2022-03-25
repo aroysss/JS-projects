@@ -1,3 +1,4 @@
+document.write(smaller= 1<10)?"left number smaller":"right number smaller";
 function animal(species,breed,color,size) {
 	this. animal_species= species;
 	this. animal_breed= breed;

@@ -26,4 +26,6 @@ function array_function() {
 	picture[3]="rat";
 	document.getElementById("array").innerHTML= "this is a picture of a "+ picture[3];
 }
-	
+	var color="red";
+	let age= 20;
+	document.write(age);

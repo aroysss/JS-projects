@@ -1,31 +1,31 @@
-let activeplayer= 'X'; //whose turn//
-let selectedsquares = [];
+let activePlayer= 'X'; //whose turn//
+let selectedSquares = [];
 
 // function for placing x or o //
-function place XorO(squarenumber) {
-	if (!selectedsquare.some(element=> element.includes(squarenumber))) {
-		let select=document.getElementById(squarenumber);
+function placeXorO(squarenumber) {
+	if (!selectedSquare.some(element=> element.includes(squareNumber))) {
+		let select=document.getElementById(squareNumber);
 		if (activeplayer=== 'X') {
-			select.style.backgroundimage= 'url(/x.png)';
+			select.style.backgroundImage= 'url(/x.png)';
 		} else {
-			select.style.backgroundimage= 'url("/o.png")';
+			select.style.backgroundImage= 'url("/o.png")';
 		}
 		//squarenumber and activeplayer concatentated//
-		selectedsquares.push(squarenumber + activeplayer);
+		selectedSquares.push(squareNumber + activePlayer);
 		// check for win //
-		checkwinconditions();
+		checkWinConditions();
 		// change active player //
-		if (activeplayer=== 'X') {
-			activeplayer='O';
+		if (activePlayer=== 'X') {
+			activePlayer='O';
 		} else {
 			// change activeplayer to x //
-			activeplayer='X';
+			activePlayer='X';
 		}
 		
 		// sound //
 		audio('/place.mp3');
-		if (activeplayer === 'O') {
-			disableclick();
+		if (activePlayer === 'O') {
+			disableClick();
 			setTimeout (fucntion () { computersTurn(); }, 1000)
 		}
 		return true;

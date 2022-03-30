@@ -2,11 +2,11 @@ let activePlayer= 'X'; //whose turn//
 let selectedSquares = [];
 
 // function for placing x or o //
-function placeXorO(squarenumber) {
+function placeXorO(squareNumber) {
 	if (!selectedSquare.some(element=> element.includes(squareNumber))) {
 		let select=document.getElementById(squareNumber);
-		if (activeplayer=== 'X') {
-			select.style.backgroundImage= 'url(/x.png)';
+		if (activePlayer=== 'X') {
+			select.style.backgroundImage= 'url("/x.png")';
 		} else {
 			select.style.backgroundImage= 'url("/o.png")';
 		}

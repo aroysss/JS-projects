@@ -13,7 +13,7 @@ function Input_Digit(digit) {
         Calculator.Display_Value = digit;
         Calculator.Wait_Second_Operand = false;
     } else {
-        Calculator.Display_Value=Display_Value === '0' ? digit : Disply_Value + digit;
+        Calculator.Display_Value=Display_Value === '0' ? digit : Display_Value + digit;
     }
 }
 function Input_Decimal(dot) {

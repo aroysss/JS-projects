@@ -1,3 +1,6 @@
+.html {
+    background-color:blueviolet;
+}
 #menuBG {
     width: 400px;
     height: 470px;
@@ -38,5 +41,5 @@
 #btnOrder {
     margin: 10px 0px 0px 100px;
     width: 100px;
-    height: 400px
+    height: 400px;
     }

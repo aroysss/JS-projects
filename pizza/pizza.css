@@ -2,7 +2,7 @@
     background-color:blueviolet;
 }
 #menuBG {
-    width: 400px;
+    width: 40px;
     height: 470px;
     margin: 10px auto;
     }
@@ -33,7 +33,7 @@
     float: left;
     }
 #cart {
-    top 0; 
+    top: 0; 
     margin: 0px auto;
     width: 400px;
     height: 200px;

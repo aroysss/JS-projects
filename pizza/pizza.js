@@ -9,7 +9,7 @@ function getReceipt() {
             var selectedSize = sizeArray[i].value;
             text1 = text1+selectedSize+"<br>";
         }
-    }  
+}  
 if (selectedSize ==="Personal Pizza") {
     sizeTotal = 6;
 } else if (selectedSize ==="Small Pizza") {

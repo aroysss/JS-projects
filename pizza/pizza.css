@@ -1,19 +1,22 @@
-.html {
-    background-color:blueviolet;
+body {
+    background-color:red;
+}
+div {
+    color: rgb(157, 175, 231);
 }
 #menuBG {
-    width: 40px;
+    width: 400px;
     height: 470px;
     margin: 10px auto;
     }
 #frmMenu {
-    width: 400px;
+    width: 600px;
     height: 200px;
     }
 #totalPrice {
     width: 200px;
     height: 190px;
-    margin: 0 auto;
+    margin: 20px auto;
     float: right;
     }
 .left {
@@ -21,6 +24,11 @@
     height: 200px;
     float: left;
     }
+.center {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
 .right {
     width:200px;
     height: 200px;
@@ -41,5 +49,6 @@
 #btnOrder {
     margin: 10px 0px 0px 100px;
     width: 100px;
-    height: 400px;
+    height: 40px;
+    margin: 25px auto;
     }
